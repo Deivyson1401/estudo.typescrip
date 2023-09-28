@@ -77,6 +77,7 @@ do {
         case 2:
             diplomaTF = "Nao possui"
             diplomaP = false
+            break;
         default:
             console.log("Valor incorreto, escolha uma opcao");
             teste4 = true
@@ -86,7 +87,7 @@ do {
 console.log(`\nNovo cadastro
 -----------------------`);
 console.log(`\nNome: ${nomeP}--- Tipo: ${typeof nomeP}
-salario: ${salarioP}--- Tipo ${typeof salarioP}
+salario: ${salarioP.toFixed(2)}--- Tipo ${typeof salarioP}
 Idade: ${IdadeP}--- Tipo: ${typeof IdadeP}
 Diploma: ${diplomaTF}--- tipo: ${typeof diplomaP}
 `);
