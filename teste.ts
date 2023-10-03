@@ -1,4 +1,4 @@
-const readline = require("readline-sync")
+const readline1 = require("readline-sync")
 let nome: string = "Deivyson"
 let n1: number = 10
 let n2: number = 15
